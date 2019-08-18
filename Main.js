@@ -30,7 +30,7 @@ var elementA = document.createElement("input");
     flotta.appendChild(elementA);
 
 /* Read
-
+YESSSSSSSSSSSSSSSSS
 https://css-tricks.com/use-button-element/
 */
     // Your code here...
