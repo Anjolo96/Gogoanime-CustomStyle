@@ -15,15 +15,13 @@
     'use strict';
 // 1. Create the button
 var btnCiname = document.createElement("button");
-btnCiname.innerHTML = "Do Something";
+    btnCiname.innerHTML = "Do Something";
 
 // 2. Append somewhere
 var placeAppend = document.getElementsByClassName('favorites_book')[0].parentNode;
     placeAppend.appendChild(btnCiname);
-    
+
 // 3. Add event handler
-button.addEventListener ("click", foo() {
-  alert("did something");
-});
+btnCiname.addEventListener ("click", function() { alert("did something"); });
 
 })();
