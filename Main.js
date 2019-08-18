@@ -1,8 +1,8 @@
 // ==UserScript==
 // @version      1.0.4
 // @author       Diablosito33
-// @name         GoGoAnime.io - Costum Style
-// @description  Visited links
+// @name         GoGoAnime.io - Custom Style
+// @description  Cinema Mode + Visited links + Cleaning...
 // @namespace    https://github.com/Diablosito33/GoGoAnime.Io-CustomStyle
 // @homepageURL  https://github.com/Diablosito33/GoGoAnime.Io-CustomStyle
 // @updateURL    https://raw.githubusercontent.com/Diablosito33/GoGoAnime.Io-CustomStyle/master/Main.js
