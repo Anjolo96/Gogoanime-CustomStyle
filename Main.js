@@ -3,10 +3,10 @@
 // @author       Anjolo96
 // @name         GoGoAnime.io - Custom Style
 // @description  Cinema Mode + Visited links + Cleaning...
-// @namespace    https://github.com/Anjolo96/GoGoAnime.Io-CustomStyle
-// @homepageURL  https://github.com/Anjolo96/GoGoAnime.Io-CustomStyle
-// @updateURL    https://raw.githubusercontent.com/Anjolo96/GoGoAnime.Io-CustomStyle/master/Main.js
-// @downloadURL  https://raw.githubusercontent.com/Anjolo96/GoGoAnime.Io-CustomStyle/master/Main.js
+// @namespace    https://github.com/Anjolo96/Gogoanime-CustomStyle
+// @homepageURL  https://github.com/Anjolo96/Gogoanime-CustomStyle
+// @updateURL    https://raw.githubusercontent.com/Anjolo96/Gogoanime-CustomStyle/master/Main.js
+// @downloadURL  https://raw.githubusercontent.com/Anjolo96/Gogoanime-CustomStyle/master/Main.js
 // @match        https://www9.gogoanime.io/*
 // @grant        none
 // ==/UserScript==
