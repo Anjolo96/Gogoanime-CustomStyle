@@ -1,13 +1,13 @@
 // ==UserScript==
-// @version      1.0.20190818
 // @author       Anjolo96
+// @version      1.0.20190818
 // @name         GoGoAnime.io - Custom Style
 // @description  Cinema Mode + Visited links + Cleaning...
 // @namespace    https://github.com/Anjolo96/Gogoanime-CustomStyle
 // @homepageURL  https://github.com/Anjolo96/Gogoanime-CustomStyle
 // @updateURL    https://raw.githubusercontent.com/Anjolo96/Gogoanime-CustomStyle/master/Main.js
 // @downloadURL  https://raw.githubusercontent.com/Anjolo96/Gogoanime-CustomStyle/master/Main.js
-// @match        https://www9.gogoanime.io/*
+// @include      *.gogoanime.*
 // @grant        none
 // ==/UserScript==
 
