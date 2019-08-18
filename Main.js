@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version      1.0.4
+// @version      1.0.20190818
 // @author       Anjolo96
 // @name         GoGoAnime.io - Custom Style
 // @description  Cinema Mode + Visited links + Cleaning...
