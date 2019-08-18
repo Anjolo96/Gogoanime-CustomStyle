@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GoGoAnime.io - Costum Style
 // @namespace    gogoanime.io
-// @version      1a
+// @version      1b
 // @description  Made with CSS+JS to alternatively custom web page style
 // @author       @anjolo96
 // @match        https://www9.gogoanime.io/*
