@@ -1,12 +1,12 @@
 // ==UserScript==
 // @version      1.0.4
-// @author       Diablosito33 / Anjolo96
+// @author       Anjolo96
 // @name         GoGoAnime.io - Custom Style
 // @description  Cinema Mode + Visited links + Cleaning...
-// @namespace    https://github.com/Diablosito33/GoGoAnime.Io-CustomStyle
-// @homepageURL  https://github.com/Diablosito33/GoGoAnime.Io-CustomStyle
-// @updateURL    https://raw.githubusercontent.com/Diablosito33/GoGoAnime.Io-CustomStyle/master/Main.js
-// @downloadURL  https://raw.githubusercontent.com/Diablosito33/GoGoAnime.Io-CustomStyle/master/Main.js
+// @namespace    https://github.com/Anjolo96/GoGoAnime.Io-CustomStyle
+// @homepageURL  https://github.com/Anjolo96/GoGoAnime.Io-CustomStyle
+// @updateURL    https://raw.githubusercontent.com/Anjolo96/GoGoAnime.Io-CustomStyle/master/Main.js
+// @downloadURL  https://raw.githubusercontent.com/Anjolo96/GoGoAnime.Io-CustomStyle/master/Main.js
 // @match        https://www9.gogoanime.io/*
 // @grant        none
 // ==/UserScript==
@@ -77,7 +77,6 @@ var overlay = document.getElementById('darkOverlay');
             overlay.className = "dark";
         }
     }
-
 
 // After "Please, reload page if you can't watch the video" gap wich countains a strange script, let's just delete...
 var bigSpace = document.getElementsByClassName('anime_video_body_cate')[0].children[4];
