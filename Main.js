@@ -1,9 +1,12 @@
 // ==UserScript==
 // @name         GoGoAnime.io - Costum Style
-// @namespace    gogoanime.io
+// @namespace    https://github.com/Diablosito33/GoGoAnime.Io_CostumStyle/
 // @version      1.0.2
 // @description  Made with CSS+JS to alternatively custom web page style
-// @author       @anjolo96
+// @author       Diablosito33
+// @homepageURL  https://github.com/Diablosito33/GoGoAnime.Io_CostumStyle/
+// @updateURL    https://github.com/Diablosito33/GoGoAnime.Io_CostumStyle/edit/master/Main.js
+// @downloadURL  https://github.com/Diablosito33/GoGoAnime.Io_CostumStyle/edit/master/Main.js
 // @match        https://www9.gogoanime.io/*
 // @grant        none
 // ==/UserScript==
