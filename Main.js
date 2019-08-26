@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version      1.1.20190821
+// @version      1.1.20190826
 // @author       Anjolo96
 // @name         GoGoAnime.io - Custom Style
 // @description  Cinema Mode + Visited links + Cleaning...
@@ -34,7 +34,6 @@
     addGlobalStyle('#episode_related li .active { background-color: #d29b06; color: #fff; }');
     addGlobalStyle('#episode_related li :hover { background-color: #ffc119; color: #fff; }');
     addGlobalStyle('.customButton { float: left; margin-left: 10px; cursor: pointer; background-color: #363636; line-height: 25px; padding: 0 10px; }');
-    addGlobalStyle('.customButton2 { background-color: #805d00; }');
     addGlobalStyle('.customButton:hover { background-color: #d29b06; color: #fff; }');
     addGlobalStyle('.anime_video_body_watch { position: relative; z-index: 2; }');
     addGlobalStyle('.light { cursor: pointer; top: 0px; width: 100%; height: 100%; z-index: 1; left: 0px; position: fixed; background-color: #000000d4; }');
@@ -44,27 +43,11 @@
     addGlobalStyle('.play-video { background-color: #1b1b1b03; padding-bottom: 60%; }');
     addGlobalStyle('#scrollbar1 { width: 99%;');
     addGlobalStyle('#scrollbar1 .viewport { position: relative; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 90%;');
+    addGlobalStyle('nav.menu_recent ul li { width: 90%; overflow: null; text-overflow: null;');
 
 
     ///////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////
-    ////////////////////////////////////////////////
-    ////////////////////////////////////////////////
-    // Create the div for button Script's Dev xD
-    var btnAnjolo96 = document.createElement("div");
-    btnAnjolo96.classList.add('customButton');
-    btnAnjolo96.classList.add('customButton2');
-    btnAnjolo96.id = "btnAnjolo96";
-    // the icon...
-    var iconAnjolo96 = document.createElement("a");
-    iconAnjolo96.href = 'https://github.com/Anjolo96';
-    iconAnjolo96.classList.add('fa');
-    iconAnjolo96.classList.add('fa-github');
-    iconAnjolo96.style.padding = "6px";
-    // the text...
-    //var spanFullscreen = document.createElement("i");
-    //spanFullscreen.innerHTML = "FullScreen OFF";
-    ////////////////////////////////////////////////
     ////////////////////////////////////////////////
     // Create the div for button (FULLSCREEN) itself
     var btnFullscreen = document.createElement("div");
@@ -87,7 +70,7 @@
     // the icon...
     var iconCinema = document.createElement("i");
     iconCinema.classList.add('fa');
-    iconCinema.classList.add('fa-lightbulb-o');
+    iconCinema.classList.add('fa-arrows-h');
     iconCinema.style.padding = "0px 5px 0px 0px";
     // the text...
     var spanCinema = document.createElement("i");
@@ -115,12 +98,6 @@
 
     ///////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////
-    /////////////////////////////////
-    // Append the Scripts Developer button
-    var appendAnjolo96 = document.getElementsByClassName('favorites_book')[0].parentNode;
-    appendAnjolo96.appendChild(btnAnjolo96);
-    btnAnjolo96.appendChild(iconAnjolo96);
-    //btnAnjolo96.appendChild(spanCinema);
     // Append the Fullscreen Mode button
     var appendFullscreen = document.getElementsByClassName('favorites_book')[0].parentNode;
     appendFullscreen.appendChild(btnFullscreen);
