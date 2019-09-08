@@ -1,8 +1,8 @@
 // ==UserScript==
-// @version      1.1.20190826
+// @version      1.1.20190908
 // @author       Anjolo96
-// @name         GoGoAnime.io - Custom Style
-// @description  Cinema Mode + Visited links + Cleaning...
+// @name         (A) GoGoAnime.io - Custom Style
+// @description  Cinema Mode + Visited links + Continue Watching (temp) + Cleaning...
 // @namespace    https://github.com/Anjolo96/Gogoanime-CustomStyle
 // @homepageURL  https://github.com/Anjolo96/Gogoanime-CustomStyle
 // @updateURL    https://raw.githubusercontent.com/Anjolo96/Gogoanime-CustomStyle/master/Main.js
@@ -10,7 +10,6 @@
 // @include      *.gogoanime.*
 // @include      *.animego.*
 // @grant        none
-// @require      https://vidstreaming.io/js/jw8.9/jwplayer.js
 // @run-at       document-idle
 // ==/UserScript==
 
@@ -132,6 +131,33 @@
 
     ///////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////
+    // script to auto change for xstreamcdn server
+    var playbackPlayer = document.getElementsByClassName("xstreamcdn")[0].children[0];
+    var oldplaybackPlayer = document.getElementsByClassName("anime")[0].children[0];
+    var targetDataVideo = playbackPlayer.getAttribute('data-video');
+    var tragetIFrame = document.getElementsByTagName("iframe")[0];
+
+    // set up the mutation observer
+    var observer = new MutationObserver(function (mutations, me) {
+        //'mutations' is an array of mutations that occurred
+        // 'me' is the MutationObserver instance
+        var canvas = document.getElementsByTagName("iframe")[0]
+        if (canvas) {
+               handleCanvas(canvas);
+               me.disconnect(); // stop observing
+               return;
+        }
+    });
+
+    // start observing
+    observer.observe(document, {
+        childList: true,
+        subtree: true
+    });
+
+
+    ///////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////
     //obviously it starts hidden... The cinema mode
     var elem = document.documentElement;
     var contentLeft = document.getElementsByClassName("content")[0].children[0];
@@ -185,6 +211,12 @@
         }
     }
 
+    // callback executed when canvas was found
+    function handleCanvas(canvas) {
+        tragetIFrame.src = targetDataVideo;
+        playbackPlayer.className = "active";
+        oldplaybackPlayer.classList.remove("active");
+    }
 
     // After "Please, reload page if you can't watch the video" gap wich countains a strange script, let's just delete...
     var bigSpace = document.getElementsByClassName('anime_video_body_cate')[0].children[4];
