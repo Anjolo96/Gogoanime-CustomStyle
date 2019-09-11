@@ -12,6 +12,7 @@
 ! Licence: https://easylist.to/pages/licence.html
 !
 !-----------------------General advert blocking filters-----------------------!
-! *** Fetched from: https://raw.githubusercontent.com/easylist/easylistportuguese/master/easylistportuguese/easylistportuguese_general_block.txt ***
-@@www.hostingcloud.racing
-@@oou8
+! *** Fetched from: https://raw.githubusercontent.com/Anjolo96/Gogoanime-CustomStyle/master/EasyList.txt ***
+@@||www.hostingcloud.racing/oou8.js
+@@||www.hostingcloud.racing
+@@||oou8
