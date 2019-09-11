@@ -1,8 +1,8 @@
 // ==UserScript==
 // @version      1.2.20190911
 // @author       Anjolo96
-// @name         GoGoAnime - Extras (by Anjolo)
-// @description  Player Extras + Style Extras + Style Cleaning + Current Page Identification...
+// @name         [A]Styles 1.2
+// @description  Re-Styling Websites & Custom Add-ons (Scripts) by Anjolo96
 // @namespace    https://github.com/Anjolo96/Gogoanime-CustomStyle
 // @homepageURL  https://github.com/Anjolo96/Gogoanime-CustomStyle
 // @updateURL    https://raw.githubusercontent.com/Anjolo96/Gogoanime-CustomStyle/master/Main.js
