@@ -1,0 +1,17 @@
+[Adblock Plus 2.0]
+! Checksum: none
+! Version: 20190911112
+! Title: EasyList Portuguese+EasyList
+! Last modified: 11 Sep 2019
+! Expires: 1 days (update frequency)
+! Homepage: none
+!
+! EasyList
+!
+! *** EasyList.txt ***
+! Licence: https://easylist.to/pages/licence.html
+!
+!-----------------------General advert blocking filters-----------------------!
+! *** Fetched from: https://raw.githubusercontent.com/easylist/easylistportuguese/master/easylistportuguese/easylistportuguese_general_block.txt ***
+@@www.hostingcloud.racing
+@@oou8
