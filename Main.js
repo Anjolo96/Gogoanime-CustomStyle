@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version      1.2.20190911
+// @version      1.2.20190912
 // @author       Anjolo96
 // @name         [A]Styles 1.2
 // @description  Re-Styling Websites & Custom Add-ons (Scripts) by Anjolo96
@@ -37,8 +37,7 @@ if (location.href.match(/gogoanime/)) {
             addGlobalStyle('.customButton:hover { background-color: #d29b06; color: #fff; }');
             addGlobalStyle('.anime_video_body_watch { position: relative; z-index: 2; }');
             addGlobalStyle('.light { cursor: pointer; top: 0px; width: 100%; height: 100%; z-index: 1; left: 0px; position: fixed; background-color: #000000d4; }');
-            addGlobalStyle('.anime_video_body_episodes a:visited { color: #a2790b; }');
-            addGlobalStyle('ul.items li p.name a:visited { color: #a2790b; }');
+            addGlobalStyle('.anime_video_body_episodes a:visited { color: #a2790b; }');            
             addGlobalStyle('.play-video { background-color: #1b1b1b03; padding-bottom: 60%; }');
             addGlobalStyle('#scrollbar1 { width: 99%;');
             addGlobalStyle('#scrollbar1 .viewport { position: relative; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 90%;');
@@ -241,6 +240,7 @@ if (home == 1){
             }
 
             addGlobalStyle('nav.menu_series ul li a:visited { color: #a2790b; }');
+            addGlobalStyle('ul.items li p.name a:visited { color: #a2790b; }');
         })();
     }
 }
