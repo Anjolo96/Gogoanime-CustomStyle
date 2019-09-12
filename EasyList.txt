@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Checksum: none
-! Version: 20190911114
+! Version: 20190912.1
 ! Title: EasyList [A]
 ! Last modified: 12 Sep 2019
 ! Expires: 1 days (update frequency)
-! Homepage: none
+! Homepage: https://github.com/Anjolo96/Gogoanime-CustomStyle/edit/master/EasyList.txt
 !
 ! EasyList
 !
