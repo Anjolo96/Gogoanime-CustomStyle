@@ -17,7 +17,7 @@ if (window.top != window.self) {
 var home = 1;
 
 if (location.href.match(/gogoanime/)) {
-    if (location.href.match(/episode/)) {
+    if (location.href.match(/episode/) || location.href.match(/category/)) {
         home = 0;
         //alert("u're watching anime at GogoAnime");
         (function GM_main ($) {
@@ -216,14 +216,38 @@ if (location.href.match(/gogoanime/)) {
 
             // callback executed when canvas was found
             function handleCanvas(canvas) {
-                tragetIFrame.src = targetDataVideo;
-                playbackPlayer.className = "active";
-                oldplaybackPlayer.classList.remove("active");
+                //disable to: Don't switch player server...
+                //tragetIFrame.src = targetDataVideo;
+                //playbackPlayer.className = "active";
+                //oldplaybackPlayer.classList.remove("active");
             }
 
             // After "Please, reload page if you can't watch the video" gap wich countains a strange script, let's just delete...
             var bigSpace = document.getElementsByClassName('anime_video_body_cate')[0].children[4];
             bigSpace.hidden = true;
+        })();
+    }
+}
+
+if (location.href.match(/gogoanime/)) {
+    if (location.href.match(/category/)) {
+         home = 0;
+        (function GM_main ($) {
+            //alert("u're at GogoAnime's home");
+            //any css added with this function afect entire web page
+            function addGlobalStyle(css) {
+                var head, style;
+                head = document.getElementsByTagName('head')[0];
+                if (!head) { return; }
+                style = document.createElement('style');
+                style.type = 'text/css';
+                style.innerHTML = css;
+                head.appendChild(style);
+            }
+
+            addGlobalStyle('#episode_related li :visited { background-color: #252525; color: #a2790b;}');
+            addGlobalStyle('#episode_related li .active { background-color: #d29b06; color: #fff; }');
+            addGlobalStyle('#episode_related li :hover { background-color: #ffc119; color: #fff; }');
         })();
     }
 }
