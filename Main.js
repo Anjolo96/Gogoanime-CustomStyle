@@ -10,6 +10,10 @@
 // @include      *
 // @run-at       document-idle
 // ==/UserScript==
+if (window.top != window.self) {
+    return;
+}
+
 var home = 1;
 
 if (location.href.match(/gogoanime/)) {
