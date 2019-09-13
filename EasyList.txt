@@ -14,5 +14,7 @@
 !-----------------------General advert blocking filters-----------------------!
 ! *** Fetched from: https://raw.githubusercontent.com/Anjolo96/Gogoanime-CustomStyle/master/EasyList.txt ***
 @@||www.hostingcloud.racing/jPvl.js
+@@||www.hostingcloud.racing/*
 @@||www.hostingcloud.racing
+@@||jPvl
 @@||oou8
